@@ -160,19 +160,19 @@ package model
 				//for cocos2d-x
 				if(xml.@[ConstValues.A_COCOS2D_X].length() > 0)
 				{
-					xml.@[ConstValues.A_COCOS2D_X] = Math.ceil(Number(xml.@[ConstValues.A_COCOS2D_X]) * scale);
+					xml.@[ConstValues.A_COCOS2D_X] = formatNumber(Number(xml.@[ConstValues.A_COCOS2D_X]) * scale);
 				}
 				if(xml.@[ConstValues.A_COCOS2D_Y].length() > 0)
 				{
-					xml.@[ConstValues.A_COCOS2D_Y] = Math.ceil(Number(xml.@[ConstValues.A_COCOS2D_Y]) * scale);
+					xml.@[ConstValues.A_COCOS2D_Y] = formatNumber(Number(xml.@[ConstValues.A_COCOS2D_Y]) * scale);
 				}
 				if(xml.@[ConstValues.A_COCOS2D_PIVOT_X].length() > 0)
 				{
-					xml.@[ConstValues.A_COCOS2D_PIVOT_X] = Math.ceil(Number(xml.@[ConstValues.A_COCOS2D_PIVOT_X]) * scale);
+					xml.@[ConstValues.A_COCOS2D_PIVOT_X] = formatNumber(Number(xml.@[ConstValues.A_COCOS2D_PIVOT_X]) * scale);
 				}
 				if(xml.@[ConstValues.A_COCOS2D_PIVOT_Y].length() > 0)
 				{
-					xml.@[ConstValues.A_COCOS2D_PIVOT_Y] = Math.ceil(Number(xml.@[ConstValues.A_COCOS2D_PIVOT_Y]) * scale);
+					xml.@[ConstValues.A_COCOS2D_PIVOT_Y] = formatNumber(Number(xml.@[ConstValues.A_COCOS2D_PIVOT_Y]) * scale);
 				}
 				//====2013-08-30 zrong end
 			}
